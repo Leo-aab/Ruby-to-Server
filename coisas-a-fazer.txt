@@ -1,0 +1,16 @@
+Ruby to Server - Prioridades
+
+1 - bootstrap de servidor limpo
+
+2 - limpador de imagens orfãs
+
+3 - healthchecker de containers
+
+4 - rotina de backup automatizado
+
+5 - gerador dinamico de docker-composer.yml
+
+6 - analizador de logs centralizado
+
+7 - Micro-Servidor de Webhook / Depliy Continuo
+
