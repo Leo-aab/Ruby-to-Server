@@ -3,11 +3,11 @@
 }:
 
 pkgs.mkShell {
-  buildInputs = [
-    pkgs.python3
-    pkgs.ruby
-    pkgs.git
-    pkgs.docker
+  buildInputs = with pkgs; [
+    python3
+    ruby
+    git
+    docker
 
   ];
 }

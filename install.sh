@@ -17,3 +17,15 @@ if [ -f /etc/os-release ]; then
 else
     echo "[-] /etc/os-release not found. Cannot determine distribution automatically."
 fi
+
+if [$NAME == "Debian" ]; then
+sudo apt update
+sudo apt install ruby
+
+
+else
+        echo "Ur Distro isnt debian"
+fi
+
+
+
